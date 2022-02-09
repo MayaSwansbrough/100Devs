@@ -1,0 +1,254 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    box-sizing: border-box;
+}
+
+header {
+    float: left;
+    width: 11rem;
+    height: 100%;
+    position: fixed;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+header img {
+    width: 3rem;
+}
+
+.extraCrunch {
+    color: #ffa63c;
+}
+
+.extraCrunch * {
+    color: inherit;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #717171;
+    text-decoration: none;
+}
+
+nav {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#headline {
+    width: 60%;
+    margin-left: 16%;
+    float: left;
+    object-fit: contain;
+    overflow: hidden;
+    padding-right: 2rem;
+}
+
+
+.side {
+    float: left;
+    width: 20%;
+}
+
+.side a:hover {
+    color: #717171;
+    text-decoration: none;
+}
+
+.bottom {
+    background-color: white;
+    clear: left;
+    margin-left: 16%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    color: #a3a3a3;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: .8rem;
+    padding: .6rem 0 .6rem 0;
+}
+
+h7 {
+    font-size: .8rem;
+    font-weight: 300;
+    color: #a3a3a3;
+}
+
+#fintech {
+    width: 100%;
+    display: block;
+    margin-bottom: -2rem;
+}
+
+hr {
+    border: .001rem solid #ddd;
+}
+
+.bottom {
+    padding: 1rem 1rem 0 0;
+}
+
+.firstBottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+#firstBottomLeft, #firstBottomMid, #firstBottomRight {
+    width: 25%;
+    padding: 1rem 1rem 0 0;
+}
+
+#firstBottomLeft h2, h6, h7 {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#firstBottomMid p {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: #a3a3a3;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+#firstBottomRight img{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+
+    * {
+        margin: 0;
+    }
+    header {
+        width: 100%;
+        height: 10rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: .8rem;
+        position: fixed;
+        clear: both;
+        margin: 0;
+    }
+    header img {
+        width: 5%;
+        height: 5%;
+    }
+
+    header img, a {
+        padding: .4rem;
+        text-align: center;
+    }
+
+    header ul {
+        display: flex;
+        font-size: .8rem;
+    }
+    
+    #headline {
+
+        width: 100%;
+        margin: 10rem 6rem 0 6rem;
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+        text-align: center;
+    }
+
+    .side {
+        width: 100%;
+        text-align: center;
+        margin: 6rem;
+    }
+
+    #firstSide, #secondSide, #thirdSide, #fourthSide {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom {
+        width: 100%;
+        padding: 0;
+    }
+
+    .firstBottom {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    #firstBottomLeft, #firstBottomMid, #firstBottomRight {
+        width: 100%;
+    }
+    
+    #firstBottomLeft h2, h6, h7 {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #firstBottomMid p {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        color: #a3a3a3;
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+    
+    #firstBottomRight img{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+
+}
