@@ -1,0 +1,90 @@
+html {
+    font-size: 16px;
+    font-family: Arial;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: .2rem 6rem .2rem 6rem;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    border-bottom: .1rem solid rgba(0,0,0,.2);
+}
+
+nav input {
+    background-color: lightgray;
+}
+
+nav input::placeholder {
+    color: cornflowerblue;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav ul li a, nav ul li a:hover {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+}
+
+li img {
+    width: 35%;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+}
+
+#mainImg {
+    float: left;
+    margin-left: 25%;
+}
+
+#resultsImg {
+    width: 27rem;
+}
+
+#side {
+    position: relative;
+    float: left;
+    margin-top: 8rem;
+    width: 27rem;
+    text-align: left;
+    line-height: 1.8rem;
+}
+
+#side ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#side ul li {
+    padding-right: 1rem;
+}
+
+button {
+    margin: 0;
+    padding: .6rem;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid cornflowerblue;
+    border-radius: .2rem;
+}
