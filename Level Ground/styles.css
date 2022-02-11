@@ -1,0 +1,198 @@
+html {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #66768a;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+header button {
+    background-color: #fff;
+    color: #66768a;
+    border: .1rem solid #fff;
+    border-radius: .2rem;
+    text-transform: uppercase;
+}
+
+header p {
+    margin: auto;
+    width: 40%;
+}
+
+#why, #volunteer {
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.visit {
+    background-color: #dbdfe2;
+    color: #000;
+}
+
+footer {
+    background-color: #161f2a;
+    color: #fff;
+}
+
+#why *, #volunteer *, .visit * {
+    text-align: center;
+}
+
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+header #topNav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header #topNav ul a {
+    color: white;
+    font-size: .8rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header #topNav ul li {
+    margin-top: 1.3rem;
+    padding: -10rem;
+}
+
+#why {
+    width: 40%;
+    margin: auto;
+    padding: 4rem;
+}
+
+.visit {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 4rem;
+    text-align: center;
+}
+
+#visitGym, #visitYou {
+    width: 35%;
+    text-align: center;
+}
+
+.visitText{
+    text-align: justify;
+    padding: 1rem;
+}
+
+.gymBox {
+    background-color: #66768a;
+    width: 14rem;
+    height: 8.5rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 .2rem black;
+}
+
+.visitButton {
+    margin: auto;
+    margin-top: 1.2rem;
+}
+
+.visitButton button {
+    background-color: #dbdfe2;
+    text-transform: uppercase;
+    border: .1rem solid #000;
+    padding: 1rem 1.8rem;
+}
+
+#volunteer {
+    width: 40%;
+    margin: auto;
+    padding: 4rem;
+}
+
+#volunteer button {
+    background-color: #fff;
+    text-transform: uppercase;
+    border: .1rem solid #000;
+    padding: 1rem 1.8rem;
+    margin: 1.2rem;
+}
+/* 
+footer {
+    padding: 1rem 2rem;
+} */
+
+footer ul {
+    list-style-type: none;
+}
+
+#bottomNav {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: flex;
+    /* justify-content: column nowrap; */
+    order: 1;
+}
+
+#right {
+    order: 2;
+}
+
+#map label, #contribute label {
+    color: #66768a;
+    text-transform: uppercase;
+}
+
+#social ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 13%;
+    padding-left: 0;
+    padding-bottom: 1rem;
+}
+
+ #map ul, #contribute ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 0;
+}
+
+#map ul li a, #contribute ul li a {
+    display: inline-block;
+    padding: .5rem 1rem .5rem 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#bottom {
+    border-top: .1rem solid #fff;
+    margin: 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    position:
+}
+
+#bottom img {
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
