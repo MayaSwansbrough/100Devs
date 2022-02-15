@@ -1,0 +1,410 @@
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#one, #two, #three, #four, #five, #six, #seven, #eight {
+    display: none;
+}
+
+button {
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    width: 15%;
+    height: 2.5rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.fa-solid, .fa-brands {
+    color: orange;
+    padding-right: .2rem;
+}
+
+header, #aboutUs, #specialty, #bottom {
+    background-position: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 40rem;
+}
+
+header {
+    background-image: url(FLSAh1LXoAE-EBs.jfif);
+    width: 100%;
+}
+
+header nav {
+    display: inline-block;
+    width: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+header nav ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1rem 2rem;
+    color: black;
+}
+
+header nav ul li a, header nav ul li a:hover {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top {
+    width: 50%;
+    padding: 6rem;
+}
+
+#topBox {
+    background-image: url(search.png);
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 2.5rem;
+    margin: 1rem 0;
+    padding: .3rem;
+    border: .1rem solid lightgray;
+    border-radius: .3rem 0 0 .3rem;
+    border-right: none;
+}
+
+#topBox::placeholder {
+    padding-left: 2rem;
+}
+
+#topButton {
+    display: inline-block;
+    background-color: orange;
+    color: #fff;
+    width: 15%;
+    height: 2.5rem;
+    border: .1rem solid lightgray;
+    border-radius: 0 .3rem .3rem 0;
+    border-left: none;
+}
+
+h1 {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family:"Berkshire Swash";
+    font-size: 3rem;
+}
+
+h3 {
+    color: orange;
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+#fb, #twitter, #insta {
+    float: left;
+    padding: 1.5rem 3rem 0 0;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+#aboutUs {
+    background-image: url(bg.png);
+    width: 100%;
+}
+
+#aboutUs div {
+    width: 40%;
+    margin-top: 5rem;
+    margin-left: 38rem;
+    line-height: 1.8rem;
+    font-family: "Poppins";
+    font-size: .8rem;
+}
+
+#aboutUs p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#menuButton, #arrow {
+    font-family: "Poppins";
+    font-size: .7rem;
+    color: white;
+}
+
+#menuButton {
+    display: inline;
+    width: 20%;
+    height: 2.5rem;
+    padding: .3rem;
+    border: none;
+    border-radius: .3rem 0 0 .3rem;
+    border-right: none;
+}
+
+#arrow {
+    display: inline;
+    background-color: rgb(255, 207, 117);
+    width: 5%;
+    height: 2.5rem;
+    border: none;
+    border-radius: 0 .3rem .3rem 0;
+    border-left: none;
+}
+
+#specialty {
+    background-color: #f2f6f7;
+    text-align: center;
+    display: inline-block;
+    height: 65rem;
+}
+
+#specialty ul {
+    width: 42%;
+    list-style-type: none;
+    border-bottom: .1rem solid lightgray;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+#specialty ul li {
+    display: inline-block;
+    padding: 1rem 2rem .5rem 2rem;
+    color: #000;
+}
+
+#specialty ul li a, #specialty ul li a:hover {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#specialty ul li a:hover {
+    color: orange;
+}
+
+#breakfast {
+    width: 20%;
+    display: inline;
+    clear: left;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    
+}
+
+.pic {
+    float: left;
+    margin: 2rem;
+    position: relative
+}
+
+.pic img {
+    width: 13rem;
+    height: 19rem;
+    object-fit: cover;
+    position: relative;
+}
+
+.sale {
+    display: block;
+    z-index: 1;
+    position: absolute;
+    background-color: orange;
+    width: 5rem;
+    border-radius: 1rem;
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    color: white;
+    top: 1rem;
+    right: 1rem;
+}
+
+#bottom {
+    clear: left;
+    background-color: #fff;
+    text-align: center;
+    height: 110rem;
+}
+
+#contact {
+    display: inline-block;
+}
+
+#contact span {
+    display: block;
+}
+
+#contact img+span {
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    margin-bottom: .2rem;
+}
+
+#contact .orange {
+    color: orange;
+    font-family: "Berkshire Swash";
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+#hours {
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+}
+
+#hours span {
+    width: 50%;
+    float: left;
+    margin-bottom: 3rem;
+    font-family: "Poppins";
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+#hours span+span {
+    float: right;
+}
+
+#hours .time {
+    font-family: "Berkshire Swash";
+    font-size: 2.2rem;
+}
+
+#video {
+    clear: left;
+    width: 100%;
+}
+
+#reviews {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#reviews img {
+    margin-top: 2rem;
+}
+
+h4, h5 {
+    font-family: "Poppins";
+
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+    color: gray;
+    margin-top: -.3rem;
+    padding-bottom: 1rem;
+}
+
+#reviews p {
+    font-family: "Poppins";
+    font-size: 1.4rem;
+    font-style: italic;
+    color: gray;
+    width: 70%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+
+footer {
+    background-color: #f2f6f7;
+    display: inline-block;
+    width: 100%;
+    height: 30rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+h6 {
+    font-family: "Berkshire Swash";
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+#bottomOne, #bottomTwo, #bottomThree, #bottomFour {
+    float: left;
+    width: 25%;
+    text-align: justify;
+    padding: 2rem;
+}
+
+#bottomOne span {
+    display: block;
+    font-family: "Poppins";
+    padding-left: 2rem;
+}
+
+#bottomTwo span {
+    display: block;
+    font-family: "Poppins";
+    padding-top: 2rem;
+}
+
+#bottomThree span {
+    display: block;
+    font-family: "Poppins";
+    padding-top: 2rem;
+}
+
+#bottomThree address {
+    display: block;
+    font-family: "Poppins";
+    padding-top: 2rem;
+    font-style: normal;
+}
+
+#bottomThree a, #bottomThree a:hover {
+    color: orange;
+}
+
+#bottomFour input {
+    margin-top: 2rem;
+    width: 80%;
+    height: 2.5rem;
+    padding: .3rem;
+    border: .1rem solid lightgray;
+    border-radius: .3rem;
+}
+
+#footerBottom {
+    margin-top: 4rem;
+    width: 100%;
+    clear: left;
+    display: inline-block;
+}
+
+#footerBottom span {
+    float: left;
+    font-family: "Poppins";
+}
+
+#footerBottom span+span {
+    float: right;
+}
+
+#footerBottom div {
+    float: left;
+    margin: 0 3rem;
+    border: .1rem solid orange;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: .8em 1em;
+}
